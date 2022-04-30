@@ -1,38 +1,28 @@
-.App {
+.home-container {
+  background: radial-gradient(rgba(0,0,0,.2),#000), url("https://myafrilearn.com/static/media/bg4.5a98397a.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
   text-align: center;
+  color: #fff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.overlay-message-top {
+  text-align: center;
+  height: 40%;
+  margin-top: 55px;
+  padding-top: 25px;
+}
+.search-input-overlay {
+  padding: 15px;
+  width: 595px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.search-btn-overlay {
+  padding: 15px;
+  width: 150px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.search-bar-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
