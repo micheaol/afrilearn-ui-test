@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Roboto+Slab:wght@600&display=swap');
+
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+
+.navbar-ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.navbar-ul li{
+    margin: 10px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    background: none;
+    
+}
+
+.navbar-ul li:hover{
+    background-color: rgba(100, 100, 100, 0.3);
+}
+
+.navbar-ul li a {
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+}
+
+.left-items ul{
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+}
+.left-items li{
+    background: #84bb29!important;
+    border-radius: 10px;
+    color: #fff!important;
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.social-media-icons {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    
+}
+
+.social-media-icons li {
+    margin: 5px;
+    margin-top: 34px;
+    cursor: pointer;
+}
+
+.social-media-icons li a {
+    color: #ffff;
+}
+
+.logo-container {
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+.logo-container img{
+    width: 172px;
+}
+
+.hamburger-button {
+    margin: 5px;
+    display: none;
+}
+
+@media screen and (max-width: 960px) {
+    .hamburger-button {
+        margin: 5px;
+        display: block;
+    }
+
+    .social-media-container, .navbar-ul {
+        display: none;
+    }
+
+    .nav-bar {
+        justify-content: space-between;
+        color: white;
+    }
+
+    .logo-container img{
+        max-width: 55px;
+        margin-top: 8px;
+        margin-left: 10px;
+        padding: 5px;
+    }
+
+}
