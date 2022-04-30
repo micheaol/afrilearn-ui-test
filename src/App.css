@@ -14,13 +14,21 @@
   padding-top: 25px;
 }
 .search-input-overlay {
-  padding: 15px;
+  padding: 18px;
   width: 595px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border: none;
 }
 
 .search-btn-overlay {
-  padding: 15px;
-  width: 150px;
+  padding: 18px;
+  width: 170px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background: #84bb29!important;
+  
+  border: none;
 }
 .search-bar-container {
   display: flex;

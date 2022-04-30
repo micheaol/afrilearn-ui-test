@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
+import WhyAfrilearnWorks from '../components/WhyAfrilearnWorks'
 
 const Home = () => {
   return (
@@ -13,7 +14,7 @@ const Home = () => {
             </h4>
             <div className="search-bar-container">
                 <div className="serch-div-container">
-                    <input type="search" className='search-input-overlay'/>
+                    <input type="search" className='search-input-overlay' placeholder='Select a class'/>
                 </div>
                 <div className="search-btn-container">
                     <button type="button" className='search-btn-overlay'>Join for free</button>
@@ -21,7 +22,7 @@ const Home = () => {
             </div>
             
         </div>
-        
+        <WhyAfrilearnWorks />
     </main>
   )
 }
