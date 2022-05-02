@@ -1,5 +1,8 @@
 import React from 'react'
+import FourBanners from '../components/FourBanners'
 import Navbar from '../components/Navbar'
+import Trending from '../components/Trending'
+import Unlimited from '../components/Unlimited'
 import WhyAfrilearnWorks from '../components/WhyAfrilearnWorks'
 
 const Home = () => {
@@ -23,6 +26,9 @@ const Home = () => {
             
         </div>
         <WhyAfrilearnWorks />
+        <FourBanners />
+        <Unlimited />
+        <Trending />
     </main>
   )
 }

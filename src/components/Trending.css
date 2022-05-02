@@ -1,0 +1,22 @@
+.course-container-frag {
+    border: 0.5px solid #fff;
+    padding: 1px 3px;
+    color: #fff;
+    width: 28%;
+}
+
+.trending-civic {
+    font-size: 90%;
+    color: #84bb29;
+    margin-bottom: 3.5%;
+}
+
+.trending-content-fragment-container{
+    display: flex;
+    align-items: center;
+    gap: 3%;
+}
+
+.last-message-frag {
+    text-align: left;
+}

@@ -9,7 +9,7 @@
     padding: 30px;
 }
 .why-container-fragment-parent-wrapper {
-    margin-top: 20%;
+    margin-top: 17%;
     color: black;
 }
 
@@ -34,6 +34,15 @@
     font-weight: 500;
     line-height: 1.4em;
     letter-spacing: 0px;
+}
+
+.innner-comp {
+    display: flex;
+    align-items: center;
+}
+span img {
+    width: 35px;
+    padding-top: 10px;
 }
 
 .header-call {
@@ -87,8 +96,8 @@
     font-family: "Lato", Sans-serif;
     font-size: 16px;
     font-weight: 500;
-    line-height: 0.9em;
-    letter-spacing: -1px;
+    line-height: 1.1em;
+    letter-spacing: 1.3px;
     margin-top: 4px;
 }
 .list-title {
