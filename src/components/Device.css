@@ -1,0 +1,40 @@
+.device-container-fragment-parent-wrapper {
+    display: flex;
+    padding: 8%;
+    gap: 5%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(32, 27, 27);
+}
+
+.device-tittle-big {
+    color: #fff;
+    font-family: "Poppins", Sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 1em;
+    letter-spacing: -1px;
+}
+
+.device-tittle-small-letter {
+    font-size: 1.55rem;
+    color: #fff;
+    font-family: "Poppins", Sans-serif;
+}
+.image-holder-devi {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+.device-image-wrapper img {
+    width: 386px;
+    display: block;
+    /* margin-top: -10px; */
+    height: 268px;
+    object-fit: contain;
+}
+
+.image-holder-devi img {
+    width: 30%;
+}

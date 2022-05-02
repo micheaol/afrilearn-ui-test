@@ -1,6 +1,11 @@
 import React from 'react'
+import Device from '../components/Device'
+import Divider from '../components/Divider'
+import Footer from '../components/Footer'
 import FourBanners from '../components/FourBanners'
+import Gamified from '../components/Gamified'
 import Navbar from '../components/Navbar'
+import Slider from '../components/Slider'
 import Trending from '../components/Trending'
 import Unlimited from '../components/Unlimited'
 import WhyAfrilearnWorks from '../components/WhyAfrilearnWorks'
@@ -29,6 +34,10 @@ const Home = () => {
         <FourBanners />
         <Unlimited />
         <Trending />
+        <Divider />
+        <Gamified />
+        <Device />
+        <Footer />
     </main>
   )
 }

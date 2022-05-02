@@ -4,7 +4,9 @@ import './Trending.css';
 const Trending = () => {
   return (
     <div>
+        <h1 className='title-frag'>Trending on Afrilearn</h1>
         <div className='parent-container-frag'>
+            
         <div className="banner-container-frag">
             <div className="image-fragment-container">
                 <img src="https://afrilearn-media.s3.eu-west-3.amazonaws.com/jss-one/civic-education/third-term/national-unity/thumbnail/national-unity.jpeg" alt="" />

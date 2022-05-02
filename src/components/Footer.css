@@ -1,0 +1,31 @@
+
+.footer-main-wrapper {
+    background-color: #151416;
+    height: 15vh;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15%;
+    padding: 3%;
+}
+
+
+
+.privacy-police-frag ul{
+    display: flex;
+    list-style-type: none;
+    width: 95%;
+    gap: 10%;
+}
+
+.privacy-police-frag ul li {
+    
+}
+
+.image-holder-sec img{
+    width: 187px;
+}
+
+span{
+    margin: 1%;
+}
